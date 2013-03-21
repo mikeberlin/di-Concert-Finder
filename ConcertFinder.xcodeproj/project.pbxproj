@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5740445416F92AEA0085B0E7 /* SeatGeekManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5740445316F92AEA0085B0E7 /* SeatGeekManager.m */; };
+		5740445816F941FA0085B0E7 /* ConcertDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5740445616F941FA0085B0E7 /* ConcertDetailViewController.m */; };
+		5740445916F941FA0085B0E7 /* ConcertDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5740445716F941FA0085B0E7 /* ConcertDetailViewController.xib */; };
+		5740445C16F943410085B0E7 /* Concert.m in Sources */ = {isa = PBXBuildFile; fileRef = 5740445B16F943410085B0E7 /* Concert.m */; };
+		5740445F16F9434D0085B0E7 /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5740445E16F9434D0085B0E7 /* Venue.m */; };
 		57EBBE5916F7E04500DC91C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57EBBE5816F7E04500DC91C5 /* UIKit.framework */; };
 		57EBBE5B16F7E04500DC91C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57EBBE5A16F7E04500DC91C5 /* Foundation.framework */; };
 		57EBBE5D16F7E04500DC91C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57EBBE5C16F7E04500DC91C5 /* CoreGraphics.framework */; };
@@ -16,17 +21,28 @@
 		57EBBE6B16F7E04500DC91C5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EBBE6A16F7E04500DC91C5 /* Default.png */; };
 		57EBBE6D16F7E04500DC91C5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EBBE6C16F7E04500DC91C5 /* Default@2x.png */; };
 		57EBBE6F16F7E04500DC91C5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EBBE6E16F7E04500DC91C5 /* Default-568h@2x.png */; };
-		57EBBE7216F7E04500DC91C5 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EBBE7116F7E04500DC91C5 /* FirstViewController.m */; };
-		57EBBE7416F7E04500DC91C5 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EBBE7316F7E04500DC91C5 /* first.png */; };
-		57EBBE7616F7E04500DC91C5 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EBBE7516F7E04500DC91C5 /* first@2x.png */; };
-		57EBBE7916F7E04500DC91C5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EBBE7816F7E04500DC91C5 /* SecondViewController.m */; };
-		57EBBE7B16F7E04500DC91C5 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EBBE7A16F7E04500DC91C5 /* second.png */; };
-		57EBBE7D16F7E04500DC91C5 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EBBE7C16F7E04500DC91C5 /* second@2x.png */; };
-		57EBBE8016F7E04500DC91C5 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57EBBE7E16F7E04500DC91C5 /* FirstViewController.xib */; };
-		57EBBE8316F7E04500DC91C5 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57EBBE8116F7E04500DC91C5 /* SecondViewController.xib */; };
+		57EBBE8C16F7E15200DC91C5 /* CitySearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EBBE8A16F7E15200DC91C5 /* CitySearchViewController.m */; };
+		57EBBE8D16F7E15200DC91C5 /* CitySearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57EBBE8B16F7E15200DC91C5 /* CitySearchViewController.xib */; };
+		57EBBE9116F7E39800DC91C5 /* ConcertSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EBBE8F16F7E39800DC91C5 /* ConcertSearchViewController.m */; };
+		57EBBE9216F7E39800DC91C5 /* ConcertSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57EBBE9016F7E39800DC91C5 /* ConcertSearchViewController.xib */; };
+		57EBBE9616F7E3A500DC91C5 /* ArtistSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EBBE9416F7E3A500DC91C5 /* ArtistSearchViewController.m */; };
+		57EBBE9716F7E3A500DC91C5 /* ArtistSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57EBBE9516F7E3A500DC91C5 /* ArtistSearchViewController.xib */; };
+		57EBBE9B16F7E3B600DC91C5 /* VenueSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EBBE9916F7E3B600DC91C5 /* VenueSearchViewController.m */; };
+		57EBBE9C16F7E3B600DC91C5 /* VenueSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57EBBE9A16F7E3B600DC91C5 /* VenueSearchViewController.xib */; };
+		57EBBE9F16F7F69500DC91C5 /* BingAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EBBE9E16F7F69500DC91C5 /* BingAPIManager.m */; };
+		8AE5644F16F96EAD009520DF /* marquee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AE5644E16F96EAD009520DF /* marquee.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5740445216F92AEA0085B0E7 /* SeatGeekManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeatGeekManager.h; sourceTree = "<group>"; };
+		5740445316F92AEA0085B0E7 /* SeatGeekManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeatGeekManager.m; sourceTree = "<group>"; };
+		5740445516F941FA0085B0E7 /* ConcertDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcertDetailViewController.h; sourceTree = "<group>"; };
+		5740445616F941FA0085B0E7 /* ConcertDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcertDetailViewController.m; sourceTree = "<group>"; };
+		5740445716F941FA0085B0E7 /* ConcertDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConcertDetailViewController.xib; sourceTree = "<group>"; };
+		5740445A16F943410085B0E7 /* Concert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Concert.h; sourceTree = "<group>"; };
+		5740445B16F943410085B0E7 /* Concert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Concert.m; sourceTree = "<group>"; };
+		5740445D16F9434D0085B0E7 /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Venue.h; sourceTree = "<group>"; };
+		5740445E16F9434D0085B0E7 /* Venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Venue.m; sourceTree = "<group>"; };
 		57EBBE5516F7E04500DC91C5 /* ConcertFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConcertFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57EBBE5816F7E04500DC91C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		57EBBE5A16F7E04500DC91C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,16 +56,21 @@
 		57EBBE6A16F7E04500DC91C5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		57EBBE6C16F7E04500DC91C5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		57EBBE6E16F7E04500DC91C5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		57EBBE7016F7E04500DC91C5 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		57EBBE7116F7E04500DC91C5 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		57EBBE7316F7E04500DC91C5 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		57EBBE7516F7E04500DC91C5 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		57EBBE7716F7E04500DC91C5 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		57EBBE7816F7E04500DC91C5 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		57EBBE7A16F7E04500DC91C5 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		57EBBE7C16F7E04500DC91C5 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		57EBBE7F16F7E04500DC91C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
-		57EBBE8216F7E04500DC91C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		57EBBE8916F7E15200DC91C5 /* CitySearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitySearchViewController.h; sourceTree = "<group>"; };
+		57EBBE8A16F7E15200DC91C5 /* CitySearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitySearchViewController.m; sourceTree = "<group>"; };
+		57EBBE8B16F7E15200DC91C5 /* CitySearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CitySearchViewController.xib; sourceTree = "<group>"; };
+		57EBBE8E16F7E39800DC91C5 /* ConcertSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcertSearchViewController.h; sourceTree = "<group>"; };
+		57EBBE8F16F7E39800DC91C5 /* ConcertSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcertSearchViewController.m; sourceTree = "<group>"; };
+		57EBBE9016F7E39800DC91C5 /* ConcertSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConcertSearchViewController.xib; sourceTree = "<group>"; };
+		57EBBE9316F7E3A400DC91C5 /* ArtistSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistSearchViewController.h; sourceTree = "<group>"; };
+		57EBBE9416F7E3A500DC91C5 /* ArtistSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistSearchViewController.m; sourceTree = "<group>"; };
+		57EBBE9516F7E3A500DC91C5 /* ArtistSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArtistSearchViewController.xib; sourceTree = "<group>"; };
+		57EBBE9816F7E3B500DC91C5 /* VenueSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenueSearchViewController.h; sourceTree = "<group>"; };
+		57EBBE9916F7E3B600DC91C5 /* VenueSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenueSearchViewController.m; sourceTree = "<group>"; };
+		57EBBE9A16F7E3B600DC91C5 /* VenueSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VenueSearchViewController.xib; sourceTree = "<group>"; };
+		57EBBE9D16F7F69500DC91C5 /* BingAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BingAPIManager.h; sourceTree = "<group>"; };
+		57EBBE9E16F7F69500DC91C5 /* BingAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BingAPIManager.m; sourceTree = "<group>"; };
+		8AE5644E16F96EAD009520DF /* marquee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marquee.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,17 +119,9 @@
 			children = (
 				57EBBE6716F7E04500DC91C5 /* AppDelegate.h */,
 				57EBBE6816F7E04500DC91C5 /* AppDelegate.m */,
-				57EBBE7016F7E04500DC91C5 /* FirstViewController.h */,
-				57EBBE7116F7E04500DC91C5 /* FirstViewController.m */,
-				57EBBE7316F7E04500DC91C5 /* first.png */,
-				57EBBE7516F7E04500DC91C5 /* first@2x.png */,
-				57EBBE7716F7E04500DC91C5 /* SecondViewController.h */,
-				57EBBE7816F7E04500DC91C5 /* SecondViewController.m */,
-				57EBBE7A16F7E04500DC91C5 /* second.png */,
-				57EBBE7C16F7E04500DC91C5 /* second@2x.png */,
-				57EBBE7E16F7E04500DC91C5 /* FirstViewController.xib */,
-				57EBBE8116F7E04500DC91C5 /* SecondViewController.xib */,
+				57F4670F16FA796B003AEE3E /* Data */,
 				57EBBE5F16F7E04500DC91C5 /* Supporting Files */,
+				57F4670E16FA7931003AEE3E /* ViewControllers */,
 			);
 			path = ConcertFinder;
 			sourceTree = "<group>";
@@ -116,15 +129,53 @@
 		57EBBE5F16F7E04500DC91C5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8AE5644E16F96EAD009520DF /* marquee.jpg */,
 				57EBBE6016F7E04500DC91C5 /* ConcertFinder-Info.plist */,
-				57EBBE6116F7E04500DC91C5 /* InfoPlist.strings */,
-				57EBBE6416F7E04500DC91C5 /* main.m */,
 				57EBBE6616F7E04500DC91C5 /* ConcertFinder-Prefix.pch */,
+				57EBBE6E16F7E04500DC91C5 /* Default-568h@2x.png */,
 				57EBBE6A16F7E04500DC91C5 /* Default.png */,
 				57EBBE6C16F7E04500DC91C5 /* Default@2x.png */,
-				57EBBE6E16F7E04500DC91C5 /* Default-568h@2x.png */,
+				57EBBE6116F7E04500DC91C5 /* InfoPlist.strings */,
+				57EBBE6416F7E04500DC91C5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57F4670E16FA7931003AEE3E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				57EBBE9316F7E3A400DC91C5 /* ArtistSearchViewController.h */,
+				57EBBE9416F7E3A500DC91C5 /* ArtistSearchViewController.m */,
+				57EBBE9516F7E3A500DC91C5 /* ArtistSearchViewController.xib */,
+				57EBBE8916F7E15200DC91C5 /* CitySearchViewController.h */,
+				57EBBE8A16F7E15200DC91C5 /* CitySearchViewController.m */,
+				57EBBE8B16F7E15200DC91C5 /* CitySearchViewController.xib */,
+				5740445516F941FA0085B0E7 /* ConcertDetailViewController.h */,
+				5740445616F941FA0085B0E7 /* ConcertDetailViewController.m */,
+				5740445716F941FA0085B0E7 /* ConcertDetailViewController.xib */,
+				57EBBE8E16F7E39800DC91C5 /* ConcertSearchViewController.h */,
+				57EBBE8F16F7E39800DC91C5 /* ConcertSearchViewController.m */,
+				57EBBE9016F7E39800DC91C5 /* ConcertSearchViewController.xib */,
+				57EBBE9816F7E3B500DC91C5 /* VenueSearchViewController.h */,
+				57EBBE9916F7E3B600DC91C5 /* VenueSearchViewController.m */,
+				57EBBE9A16F7E3B600DC91C5 /* VenueSearchViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		57F4670F16FA796B003AEE3E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				57EBBE9D16F7F69500DC91C5 /* BingAPIManager.h */,
+				57EBBE9E16F7F69500DC91C5 /* BingAPIManager.m */,
+				5740445A16F943410085B0E7 /* Concert.h */,
+				5740445B16F943410085B0E7 /* Concert.m */,
+				5740445216F92AEA0085B0E7 /* SeatGeekManager.h */,
+				5740445316F92AEA0085B0E7 /* SeatGeekManager.m */,
+				5740445D16F9434D0085B0E7 /* Venue.h */,
+				5740445E16F9434D0085B0E7 /* Venue.m */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,12 +233,12 @@
 				57EBBE6B16F7E04500DC91C5 /* Default.png in Resources */,
 				57EBBE6D16F7E04500DC91C5 /* Default@2x.png in Resources */,
 				57EBBE6F16F7E04500DC91C5 /* Default-568h@2x.png in Resources */,
-				57EBBE7416F7E04500DC91C5 /* first.png in Resources */,
-				57EBBE7616F7E04500DC91C5 /* first@2x.png in Resources */,
-				57EBBE7B16F7E04500DC91C5 /* second.png in Resources */,
-				57EBBE7D16F7E04500DC91C5 /* second@2x.png in Resources */,
-				57EBBE8016F7E04500DC91C5 /* FirstViewController.xib in Resources */,
-				57EBBE8316F7E04500DC91C5 /* SecondViewController.xib in Resources */,
+				57EBBE8D16F7E15200DC91C5 /* CitySearchViewController.xib in Resources */,
+				57EBBE9216F7E39800DC91C5 /* ConcertSearchViewController.xib in Resources */,
+				57EBBE9716F7E3A500DC91C5 /* ArtistSearchViewController.xib in Resources */,
+				57EBBE9C16F7E3B600DC91C5 /* VenueSearchViewController.xib in Resources */,
+				5740445916F941FA0085B0E7 /* ConcertDetailViewController.xib in Resources */,
+				8AE5644F16F96EAD009520DF /* marquee.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,8 +251,15 @@
 			files = (
 				57EBBE6516F7E04500DC91C5 /* main.m in Sources */,
 				57EBBE6916F7E04500DC91C5 /* AppDelegate.m in Sources */,
-				57EBBE7216F7E04500DC91C5 /* FirstViewController.m in Sources */,
-				57EBBE7916F7E04500DC91C5 /* SecondViewController.m in Sources */,
+				57EBBE8C16F7E15200DC91C5 /* CitySearchViewController.m in Sources */,
+				57EBBE9116F7E39800DC91C5 /* ConcertSearchViewController.m in Sources */,
+				57EBBE9616F7E3A500DC91C5 /* ArtistSearchViewController.m in Sources */,
+				57EBBE9B16F7E3B600DC91C5 /* VenueSearchViewController.m in Sources */,
+				57EBBE9F16F7F69500DC91C5 /* BingAPIManager.m in Sources */,
+				5740445416F92AEA0085B0E7 /* SeatGeekManager.m in Sources */,
+				5740445816F941FA0085B0E7 /* ConcertDetailViewController.m in Sources */,
+				5740445C16F943410085B0E7 /* Concert.m in Sources */,
+				5740445F16F9434D0085B0E7 /* Venue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,22 +272,6 @@
 				57EBBE6216F7E04500DC91C5 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		57EBBE7E16F7E04500DC91C5 /* FirstViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				57EBBE7F16F7E04500DC91C5 /* en */,
-			);
-			name = FirstViewController.xib;
-			sourceTree = "<group>";
-		};
-		57EBBE8116F7E04500DC91C5 /* SecondViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				57EBBE8216F7E04500DC91C5 /* en */,
-			);
-			name = SecondViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -332,6 +374,7 @@
 				57EBBE8816F7E04500DC91C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

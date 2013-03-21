@@ -7,22 +7,27 @@
 //
 
 #import "AppDelegate.h"
-
-#import "FirstViewController.h"
-
-#import "SecondViewController.h"
+#import "CitySearchViewController.h"
+#import "ConcertSearchViewController.h"
+#import "ArtistSearchViewController.h"
+#import "VenueSearchViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+
     // Override point for customization after application launch.
-    UIViewController *viewController1 = [[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil];
-    UIViewController *viewController2 = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
+    UIViewController *vcCitySearch = [[CitySearchViewController alloc] initWithNibName:@"CitySearchViewController" bundle:Nil];
+    UIViewController *vcConcertSearch = [[ConcertSearchViewController alloc] initWithNibName:@"ConcertSearchViewController" bundle:Nil];
+    //UIViewController *vcArtistSearch = [[ArtistSearchViewController alloc] initWithNibName:@"ArtistSearchViewController" bundle:Nil];
+    UIViewController *vcVenueSearch = [[VenueSearchViewController alloc] initWithNibName:@"VenueSearchViewController" bundle:Nil];
+
     self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = @[viewController1, viewController2];
+    self.tabBarController.viewControllers = @[vcCitySearch, vcConcertSearch, /*vcArtistSearch,*/ vcVenueSearch];
     self.window.rootViewController = self.tabBarController;
+
     [self.window makeKeyAndVisible];
     return YES;
 }
